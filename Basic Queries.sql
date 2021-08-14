@@ -196,4 +196,4 @@ SELECT COUNT(*) INTO temp FROM credential where ID = userID AND pass = Password;
     END IF;
 RETURN (ret);
 END$$
-DELIMITER ;
+DELIMITER;
